@@ -51,3 +51,86 @@ span{
 .mt0{
     margin-top: 0;
 }
+
+
+/* ----  Responsive -------*/
+
+@media screen and (max-width:704px) {
+    .container{
+        width: 600px;
+    }
+    .movie-container{
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width: 500px;
+        
+    }
+    .movie-container{
+        width: 500px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+@media screen and (max-width:518px) {
+    .container{
+        width: 360px;
+        
+    }
+    .movie-container{
+        width: 360px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+@media screen and (max-width:460px) {
+    .container{
+        width: 400px;
+        
+    }
+    .movie-container{
+        width: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .container{
+        width:340px;
+        
+    }
+    .movie-container{
+        width: 340px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+@media screen and (max-width:325px) {
+    .container{
+        width:300px;
+        
+        
+    }
+    .btn{
+        padding: 10px;
+    }
+    .movie-container{
+        width: 320px;
+        padding:8px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #poster{
+        width:95%;
+    }
+
+}
+
