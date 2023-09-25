@@ -19,7 +19,7 @@ let ratings = document.getElementById('ratings');
 let poster = document.getElementById('poster');
 let writer = document.getElementById('writer');
 
-let api = 'http://www.omdbapi.com/?apikey=61e576a4&t='
+let api = 'https://www.omdbapi.com/?apikey=61e576a4&t='
 
 
 function searchMovie(){
